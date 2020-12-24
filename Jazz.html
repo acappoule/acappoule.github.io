@@ -1,26 +1,101 @@
 <!doctype html>
 <html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     
-<h2><u><i>Jazz</i></u></h2>
-        <ol>
-            <li><h3>Ayo Mama</h3>
-                <ul>
-                    <li>PDF</li>
-                    <br>
-                    <iframe src="Ayo Mama - Full Score.pdf#toolbar=0"
-                        width="500"
-                        height="300"></iframe>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        <link rel="icon" href="messageImage_1608735537984.jpg">
+    
+        <title>Acappoule</title>
+    
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid" id="navtext">
+            <a class="navbar-brand">A</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sheets
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="index2.html">All Genres</a></li>
+                    <li><a class="dropdown-item" href="Hymn and Gospel.html">Hymn and Gospel</a></li>
+                    <li><a class="dropdown-item active" href="Jazz.html">Jazz</a></li>                
+                  </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Collaborate</a>
+                  </li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+        <link rel="stylesheet" type="text/css"
+                  href="cssac.css">
+    
+    <script type="text/javascript">
+        window.addEventListener('load', function(event){
+            document.querySelectorAll(".inlineVideo").forEach((el) => {
+                el.onplay = function(e){
+                    // pause all the videos except the current.
+                    document.querySelectorAll(".inlineVideo").forEach((el1) => {
+                        if(el === el1)
+                            el1.play();
+                        else
+                            el1.pause();
+                    });
+                }
+            });
+        });
+    </script>   
+    
+    </head>
 
-                        <br><br>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+       
+    <div class="content">
+    <h1 class="title">Acappoule</h1>
 
-                        <li>Sample</li>
-                        <br>
-                        <video width="500" height="300" controls>
-                            <source src="Ayo Mama.mp4" type="video/mp4">
-                        </video>
-                      
-                    </ul>
-            </li>
-            
-        </ol>
+    <h2><u><i>Jazz</i></u></h2>
+                <ol>
+                    <li><h3>Ayo Mama</h3>
+                        <ul>
+                            <li>PDF</li>
+                            <br>
+                            <iframe src="Ayo Mama - Full Score.pdf#toolbar=0"
+                                width="500"
+                                height="300"></iframe>
+
+                                <br><br>
+
+                                <li>Sample</li>
+                                <br>
+                                <video width="500" height="300" controls>
+                                    <source src="Ayo Mama.mp4" type="video/mp4">
+                                </video>
+                            
+                            </ul>
+                    </li>
+                    
+                </ol>
+
+    </div> <!--class=content-->
+
+</body>
+    
 </html>
