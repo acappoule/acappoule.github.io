@@ -1,0 +1,20 @@
+body  {
+        background-color:whitesmoke;
+    }
+
+@font-face {
+    font-family: 'oghey';
+    src: url('glimmeroflight.otf'); 
+  }
+.title{font-family: 'oghey'; src: url(glimmeroflight.otf); font-weight: bold;}
+#title{font-family: 'oghey'; src: url(glimmeroflight.otf); font-weight: bold; font-size: 65pt;}
+nav{background-color: #05263d;}
+.navbar-brand{font-family: 'oghey'; src: url(glimmeroflight.otf);}
+#navtext{margin-left: 1.4%;}
+
+#content{margin-top: 4cm;}
+.content{margin-left: 1cm; margin-right: 1cm;}
+.row:nth-child(2){display:flex; justify-content: flex-end;}
+#cho{text-align: right;}
+
+
