@@ -10,6 +10,8 @@
     
     <link rel="icon" href="messageImage_1608735537984.jpg">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Acappoule</title>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -44,26 +46,16 @@
       </div>
     </nav>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
     <link rel="stylesheet" type="text/css"
               href="cssac.css">
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-<script type="text/javascript">
-    window.addEventListener('load', function(event){
-        document.querySelectorAll(".inlineVideo").forEach((el) => {
-            el.onplay = function(e){
-                // pause all the videos except the current.
-                document.querySelectorAll(".inlineVideo").forEach((el1) => {
-                    if(el === el1)
-                        el1.play();
-                    else
-                        el1.pause();
-                });
-            }
-        });
-    });
-</script>   
 
 </head>
 
@@ -80,55 +72,66 @@
     <div class="container" id="contentabout">
         <div class="row">
           <div class="col-12 col-xl-8" id="judul">
-    <p style="text-align: justify;">Acappoule is...
-        <br><br>
-        <h3>Short Intro</h3>
-        BD is a 2003 kid who learns to play instruments by herself. She also likes to learn foreign languages 
-        and watch some mystery k-dramas when she’s available. She’s not ambitious at school and tends to look 
-        for other activities.
-        <br><br>
-        <h3>Music Journey</h3>
-        Back in 2009, when her brother had to go to a pop keyboard course for his therapy, she asked to join 
-        him. But unfortunately, two months after learning just very basic lessons, she broke her arm. She quit 
-        her keyboard course and since then she didn’t have the intention to join any music course. After that 
-        accident, she was registered to join a pop vocal course, which she didn’t know she didn’t like. After 
-        three to four years, she quit.
-        <br><br>
-        In elementary school, when BD was around 10, she started to be interested in guitar, so she joined her 
-        school’s music ensemble that consisted of children who played melodicas, recorders, xylophone, 
-        triangle, castanets, and guitars. She learnt to play some basic chords, however she didn’t explore 
-        more so her guitar skills hadn’t improved for years. She also played melodica and recorder as it was 
-        compulsory for all students to learn how to play those instruments in her elementary school. When she 
-        was 12 she took classical singing lesson for only three months because she had a vocal problem.
-        <br><br>
-        In the second term of 7th grade, her interest in playing piano grew. She started to teach herself 
-        piano (before she had a piano she learnt using keyboard) by experimenting, without any structured 
-        learning plan. At that time she had forgotten every lesson she got from her previous keyboard course, 
-        and it can be said that she started from scratch. Since she never uses sheet music to play piano, she 
-        is used to play by ear.
-        <br><br>
-        Playing piano made her discover Jazz music. This allows her to be keener in making harmony and it helps 
-        her play "more-than-just-the-root" chords, without even knowing the name of the chords. She has also 
-        tried to make one-woman  (feminine version of the word "one-man" lol) acapella audios. 
-        <br><br>
-        As her skill improves—even though it’s still mediocre—, she has taken part in church services, school 
-        events/performances, and birthday events. 
-        <br><br>
-        Playing piano helped her regain the eagerness to improve her guitar skills, after ignoring it for 
-        years. In the 8th grade she started off by practising more complex chords and currently is trying to 
-        play finger style.
-        <br><br>
-        In high school, she chose music for her art class. She studied some basic music theories and got to 
-        know an application to make sheet music. Now she doesn’t have to be able to read sheet music to write 
-        one, because she can listen to it by using the application.<br><br><br></p>
-        </div> <!--class="col-12 col-xl-8" id="judul"-->
+            <div data-aos="fade-up" data-aos-duration="1000">
+              <p style="text-align: justify;">Acappoule is...</p>
+            </div><!--data-aos="fade-zoom-in" data-aos-duration="1000"-->
 
+            <br>
+
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+              <h3>Short Intro</h3>
+              <p style="text-align: justify;">BD is a 2003 kid who learns to play instruments by herself. She also likes to learn foreign languages 
+                and watch some mystery k-dramas when she’s available. She’s not ambitious at school and tends to look 
+                for other activities.</p>
+            </div><!--data-aos="fade-zoom-in" data-aos-duration="1000"-->
+
+        <br>
+
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+          <h3>Music Journey</h3>
+          <p style="text-align: justify;">Back in 2009, when her brother had to go to a pop keyboard course for his therapy, she asked to join 
+            him. But unfortunately, two months after learning just very basic lessons, she broke her arm. She quit 
+            her keyboard course and since then she didn’t have the intention to join any music course. After that 
+            accident, she was registered to join a pop vocal course, which she didn’t know she didn’t like. After 
+            three to four years, she quit.
+            <br><br>
+            In elementary school, when BD was around 10, she started to be interested in guitar, so she joined her 
+            school’s music ensemble that consisted of children who played melodicas, recorders, xylophone, 
+            triangle, castanets, and guitars. She learnt to play some basic chords, however she didn’t explore 
+            more so her guitar skills hadn’t improved for years. She also played melodica and recorder as it was 
+            compulsory for all students to learn how to play those instruments in her elementary school. When she 
+            was 12 she took classical singing lesson for only three months because she had a vocal problem.
+            <br><br>
+            In the second term of 7th grade, her interest in playing piano grew. She started to teach herself 
+            piano (before she had a piano she learnt using keyboard) by experimenting, without any structured 
+            learning plan. At that time she had forgotten every lesson she got from her previous keyboard course, 
+            and it can be said that she started from scratch. Since she never uses sheet music to play piano, she 
+            is used to play by ear.
+            <br><br>
+            Playing piano made her discover Jazz music. This allows her to be keener in making harmony and it helps 
+            her play "more-than-just-the-root" chords, without even knowing the name of the chords. She has also 
+            tried to make one-woman  (feminine version of the word "one-man" lol) acapella audios. 
+            <br><br>
+            As her skill improves—even though it’s still mediocre—, she has taken part in church services, school 
+            events/performances, and birthday events. 
+            <br><br>
+            Playing piano helped her regain the eagerness to improve her guitar skills, after ignoring it for 
+            years. In the 8th grade she started off by practising more complex chords and currently is trying to 
+            play finger style.
+            <br><br>
+            In high school, she chose music for her art class. She studied some basic music theories and got to 
+            know an application to make sheet music. Now she doesn’t have to be able to read sheet music to write 
+            one, because she can listen to it by using the application. She's also part of her school's choir<br><br><br></p>
+        </div><!--data-aos="fade-zoom-in" data-aos-duration="1000"-->
+      </div>
         
         <div class="col-12 col-xl-4">
+          <div data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1800">
             <p id="rowdua" style="text-align: center;">
-            <a href="https://open.spotify.com/user/6zfic0e3afik2y923l6jopxyo">
-            <i class='fab fa-spotify' id="logospot" style='color:rgb(95, 228, 95)'></i></a><br><br><br></p>
-            </div>
+              <a href="https://open.spotify.com/user/6zfic0e3afik2y923l6jopxyo">
+              <i class='fab fa-spotify' id="logospot" style='color:rgb(95, 228, 95)'></i></a><br><br><br></p>
+              </div>
+         
         </div> <!--row-->
    </div> <!--container-->
    </div> <!--class=content-->
