@@ -6,16 +6,76 @@ body  {
     font-family: 'oghey';
     src: url('glimmeroflight.otf'); 
   }
+
 .title{font-family: 'oghey'; src: url(glimmeroflight.otf); font-weight: bold;}
-#title{font-family: 'oghey'; src: url(glimmeroflight.otf); font-weight: bold; font-size: 65pt;}
+#title{font-family: 'oghey'; src: url(glimmeroflight.otf); font-weight: bold;}
 nav{background-color: #05263d;}
 .navbar-brand{font-family: 'oghey'; src: url(glimmeroflight.otf);}
-#navtext{margin-left: 1.4%;}
 
-#content{margin-top: 4cm;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+	#title {
+          font-size: 30pt;
+  }
+
+  #content{
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-top: 50pt;
+    text-align: center;
+
+  }
+
+  video{width: 50; height: 30}
+}
+
+@media only screen and (min-width: 768px) {
+	#title {
+          font-size: 80pt;
+  }
+  
+  #content{
+    margin-left: 1cm; 
+    margin-right: 1cm;
+    text-align: center;
+  }
+  #cho{ font-size: 35pt;}
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+  #title {
+    font-size: 65pt;
+  }
+  #navtext{margin-left: 1.4%;}
+  #content{margin-top: 4cm;}
+  .content{
+    margin-left: 1cm; 
+    margin-right: 1cm;
+  }
+  #judul {margin-top: 50px;}
+  #cho{text-align: right;}
+
+  video{width: 500 height: 300}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .content{margin-left: 1cm; margin-right: 1cm;}
 .row:nth-child(2){display:flex; justify-content: flex-end;}
-#cho{text-align: right;}
+
 
 
 
