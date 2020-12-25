@@ -2,15 +2,6 @@ body  {
         background-color:whitesmoke;
     }
 
-@keyframes  { #judul {
-  display: inline-block;
-  margin: 0 0.5rem;
-
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-}
-
-  }
 
 @font-face {
     font-family: 'oghey';
@@ -43,6 +34,11 @@ nav{background-color: #05263d;}
   video{width: 6cm; height: 4cm;};
   iframe{width: 6cm; height: 4cm;}
   audio{width: 5cm}
+
+  #contentabout {margin-left: -0.35cm; margin-top: -10px;}
+
+  #logospot{font-size:50px;}
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -76,15 +72,17 @@ nav{background-color: #05263d;}
   #navtexthome{margin-left:0.2cm;}
 
   #content{margin-top: 4cm;}
-  .content{
-    margin-left: 1cm; 
-    margin-right: 1cm;
-  }
+  
   #judul {margin-top: 50px;}
   #cho{text-align: right;}
 
   video{width: 12cm; height: 5.5cm}
   iframe{width: 12cm; height: 6cm}
+
+  #contentabout {margin-left: -0.35cm; margin-top: -30px;}
+
+  #logospot{font-size:120px;}
+  #rowdua{padding-left: 7cm; align-content: center; margin-top: 200px;}
 
 }
 
@@ -101,6 +99,7 @@ nav{background-color: #05263d;}
 
 .content{margin-left: 1cm; margin-right: 1cm;}
 .row:nth-child(2){display:flex; justify-content: flex-end;}
+
 
 
 
