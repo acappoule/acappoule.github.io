@@ -86,7 +86,13 @@ nav{background-color: #05263d;}
   video{width: 12cm; height: 5.5cm}
   iframe{width: 12cm; height: 6cm}
 
-  #contentabout {margin-left: -0.35cm; margin-top: -30px;}
+  #navtextabout{margin-left:0.8cm; margin-bottom: 2.5px;}
+  #brandabout {font-size: 16.5pt; margin-left: 0.5px;}
+  #optionabout {margin-left: 0.3%; margin-top: 2px;}
+
+  #contentabout {margin-left: -0.32cm;}
+  
+
 
   #logospot{font-size:120px;}
   #rowdua{padding-left: 7cm; align-content: center; margin-top: 200px;}
