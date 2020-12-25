@@ -5,18 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
     <link rel="icon" href="messageImage_1608735537984.jpg">
-
-   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
     <title>Acappoule</title>
 
-
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid" id="navtexthome">
-        <a class="navbar-brand">A</a>
+      <div class="container-fluid" id="navtextabout">
+        <a class="navbar-brand" id="brandabout">A</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -46,11 +44,28 @@
       </div>
     </nav>
 
-              <link rel="stylesheet" type="text/css"
+    <link rel="stylesheet" type="text/css"
               href="cssac.css">
 
-            
-  </head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+<script type="text/javascript">
+    window.addEventListener('load', function(event){
+        document.querySelectorAll(".inlineVideo").forEach((el) => {
+            el.onplay = function(e){
+                // pause all the videos except the current.
+                document.querySelectorAll(".inlineVideo").forEach((el1) => {
+                    if(el === el1)
+                        el1.play();
+                    else
+                        el1.pause();
+                });
+            }
+        });
+    });
+</script>   
+
+</head>
 
 <body>
 
@@ -67,12 +82,12 @@
           <div class="col-12 col-xl-8" id="judul">
     <p style="text-align: justify;">Acappoule is...
         <br><br>
-        <b>Short Intro</b><br>
+        <h3>Short Intro</h3>
         BD is a 2003 kid who learns to play instruments by herself. She also likes to learn foreign languages 
         and watch some mystery k-dramas when she’s available. She’s not ambitious at school and tends to look 
         for other activities.
         <br><br>
-        <b>Music Journey</b> <br>
+        <h3>Music Journey</h3>
         Back in 2009, when her brother had to go to a pop keyboard course for his therapy, she asked to join 
         him. But unfortunately, two months after learning just very basic lessons, she broke her arm. She quit 
         her keyboard course and since then she didn’t have the intention to join any music course. After that 
@@ -106,7 +121,7 @@
         In high school, she chose music for her art class. She studied some basic music theories and got to 
         know an application to make sheet music. Now she doesn’t have to be able to read sheet music to write 
         one, because she can listen to it by using the application.<br><br><br></p>
-        </div>
+        </div> <!--class="col-12 col-xl-8" id="judul"-->
 
         
         <div class="col-12 col-xl-4">
@@ -116,4 +131,5 @@
             </div>
         </div> <!--row-->
    </div> <!--container-->
+   </div> <!--class=content-->
 </body>
