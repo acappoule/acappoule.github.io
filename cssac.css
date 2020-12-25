@@ -30,9 +30,9 @@ nav{background-color: #05263d;}
 
   }
 
-  video{width: 6cm; height: 4cm;}
-  iframe{width:30;
-    height: 20}
+  video{width: 6cm; height: 4cm;};
+  iframe{width: 6cm; height: 4cm;}
+  audio{width: 5cm}
 }
 
 @media only screen and (min-width: 768px) {
@@ -40,7 +40,7 @@ nav{background-color: #05263d;}
           font-size: 80pt;
   }
   
-  #navtext{margin-right:1.5%}
+  #navtext{margin-left:1.5%}
   #navtexthome{margin-left:2.1%; margin-right: 1.1%;}
 
   #content{
@@ -50,9 +50,9 @@ nav{background-color: #05263d;}
   }
   #cho{ font-size: 35pt;}
 
-  video{width: 70; height: 50}
-  iframe{width:70;
-    height: 50}
+  video{width: 12cm; height: 8cm;};
+  iframe{width: 12cm; height: 8cm;}
+  audio{width: 7cm}
 
 }
 
@@ -73,9 +73,8 @@ nav{background-color: #05263d;}
   #judul {margin-top: 50px;}
   #cho{text-align: right;}
 
-  video{width: 500; height: 300}
-  iframe{width:500;
-    height: 300}
+  video{width: 12cm; height: 5.5cm}
+  iframe{width: 12cm; height: 6cm}
 
 }
 
