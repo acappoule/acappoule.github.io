@@ -30,7 +30,9 @@ nav{background-color: #05263d;}
 
   }
 
-  video{width: 50; height: 30}
+  video{width: 6cm; height: 4cm;}
+  iframe{width:30;
+    height: 20}
 }
 
 @media only screen and (min-width: 768px) {
@@ -47,6 +49,11 @@ nav{background-color: #05263d;}
     text-align: center;
   }
   #cho{ font-size: 35pt;}
+
+  video{width: 70; height: 50}
+  iframe{width:70;
+    height: 50}
+
 }
 
 
@@ -55,7 +62,9 @@ nav{background-color: #05263d;}
   #title {
     font-size: 65pt;
   }
-  #navtext{margin-left: 1.4%;}
+  #navtext{margin-left: 1.95%;}
+  #navtexthome{margin-left:0.2cm;}
+
   #content{margin-top: 4cm;}
   .content{
     margin-left: 1cm; 
@@ -64,7 +73,9 @@ nav{background-color: #05263d;}
   #judul {margin-top: 50px;}
   #cho{text-align: right;}
 
-  video{width: 500 height: 300}
+  video{width: 500; height: 300}
+  iframe{width:500;
+    height: 300}
 
 }
 
